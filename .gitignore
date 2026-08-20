@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+
+# --- Ambientes virtuais ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Saidas geradas pelo script (descomente se NAO quiser versionar) ---
+# comparacao_metodos.png
+# embarque_animado.gif
+
+# --- Editores / IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Jupyter (caso use notebooks no futuro) ---
+.ipynb_checkpoints/
