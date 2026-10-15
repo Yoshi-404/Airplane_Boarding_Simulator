@@ -1,32 +1,64 @@
-# --- Python ---
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg-info/
-*.egg
-build/
-dist/
+*.py[cod]
+*$py.class
 
-# --- Ambientes virtuais ---
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
 venv/
 .venv/
 env/
 ENV/
+env.bak/
+venv.bak/
 
-# --- Saidas geradas pelo script (descomente se NAO quiser versionar) ---
-# comparacao_metodos.png
-# embarque_animado.gif
+# Unit test / coverage
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
 
-# --- Editores / IDEs ---
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments & IDEs
 .vscode/
 .idea/
 *.swp
+*.swo
 
-# --- Sistema operacional ---
+# Operating System files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 desktop.ini
-
-# --- Jupyter (caso use notebooks no futuro) ---
-.ipynb_checkpoints/
